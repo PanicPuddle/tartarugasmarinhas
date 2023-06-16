@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 60px;
+    background-color: black;
+    size: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+    margin: none;
+}
+
+header div ul {
+    list-style: none;
+}
+
+header div ul li {
+    display: inline-block;
+    padding: 17px;
+    cursor: pointer;
+}
+
+header div ul li a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: rgb(8, 170, 182);
+}
+
+.logo {
+    transition: all 1s;
+    cursor: pointer;
+}
+
+/*.imagem1:hover {
+    -webkit-transform: translateX(1100px);
+    transform:translateX(1100px);
+}ou*/
+.logo:hover {
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+
+.tartaruga {
+    background-image: url(/img/pexels-blaque-x-932638.jpg);
+    background-size: cover;
+    padding: 250px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Gill Sans';
+    font-size: 30px;
+}
+
+.box {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    padding: 80px;
+    text-align: justify;
+    background-color: black;
+    color: #e2e1e1;
+}
+
+.box2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    padding: 80px;
+    text-align: justify;
+    background-color: rgb(3, 83, 88);
+}
+
+.imagemdireita {
+    margin-left: 10px;
+}
+
+.imagemesquerda {
+    margin-right: 10px;
+}
+
+.descobrir {
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.2;
+}
+
+div.box>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+div.box2>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer {
+    height: 60px;
+    background-color: black;
+    color: white;
+
+}

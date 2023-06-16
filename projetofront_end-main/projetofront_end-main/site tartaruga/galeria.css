@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 60px;
+    background-color: black;
+    size: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+    margin: none;
+}
+
+header div ul {
+    list-style: none;
+}
+
+header div ul li {
+    display: inline-block;
+    padding: 17px;
+    cursor: pointer;
+}
+
+header div ul li a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: rgb(8, 170, 182);
+}
+
+.logo {
+    transition: all 1s;
+    cursor: pointer;
+}
+
+/*.imagem1:hover {
+    -webkit-transform: translateX(1100px);
+    transform:translateX(1100px);
+}ou*/
+.logo:hover {
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://img.freepik.com/vetores-premium/fundo-sem-costura-de-tartarugas-marinhas-desenhadas-nadando-na-agua_643921-160.jpg?w=2000);
+}
+
+.contener {
+    height: 480px;
+    width: 800px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 50px;
+}
+
+.navegacao {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.barra {
+    width: 70px;
+    height: 17px;
+    border: 2px solid #fff;
+    margin: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.barra:hover {
+    background-color: #fff;
+}
+
+input {
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 1000%;
+    height: 100%;
+}
+
+.slide {
+    width: 10%;
+    transition: .6s;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+#slide1:checked~.s1 {
+    margin-left: 0;
+}
+
+#slide2:checked~.s1 {
+    margin-left: -10%;
+}
+
+#slide3:checked~.s1 {
+    margin-left: -20%;
+}
+
+#slide4:checked~.s1 {
+    margin-left: -30%;
+}
+
+#slide5:checked~.s1 {
+    margin-left: -40%;
+}
+
+#slide6:checked~.s1 {
+    margin-left: -50%;
+}
+
+#slide7:checked~.s1 {
+    margin-left: -60%;
+}
+
+#slide8:checked~.s1 {
+    margin-left: -70%;
+}
+
+#slide9:checked~.s1 {
+    margin-left: -80%;
+}
+
+#slide10:checked~.s1 {
+    margin-left: -90%;
+}
